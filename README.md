@@ -5,7 +5,7 @@ Curso básico actualizado para desarrollo en .NET
 
 | Sesiones | N° | Temas                                                                                                                                                                    | Horas |
 |----------|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| **Sesión 1** | 1  | Actualización Net Framework 4.6 y posteriores                                                                                                                            | 1     |
+| [**Sesión 1**](/session1) | 1  | Actualización Net Framework 4.6 y posteriores                                                                                                                            | 1     |
 |          | 2  | Lenguaje C# versión 8, exploración, mejoras y nuevas funcionalidades, ejercicios                                                                                         | 2     |
 |          | 3  | instalación y configuración IIS                                                                                                                                          | 1     |
 |          | 4  | Uso de GitHub como almacén de código fuente para acelerar futuros desarrollos                                                                                            | 1     |
