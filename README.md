@@ -9,7 +9,7 @@ Curso básico actualizado para desarrollo en .NET
 |          | 2  | Lenguaje C# versión 8, exploración, mejoras y nuevas funcionalidades, ejercicios                                                                                         | 2     |
 |          | 3  | instalación y configuración IIS                                                                                                                                          | 1     |
 |          | 4  | Uso de GitHub como almacén de código fuente para acelerar futuros desarrollos                                                                                            | 1     |
-| **Sesión 2** | 5  | Crear aplicación Web con Visual Studio 2013 o posteriores                                                                                                                | 2     |
+| [**Sesión 2**]((/session1.md)) | 5  | Crear aplicación Web con Visual Studio 2013 o posteriores                                                                                                                | 2     |
 |          | 6  | WCF (Windows comunications fundations), fundamentos, ejemplos y ejercicios según los tipos de proyectos en De Prati con Visual Studio 2013 o posteriores                 | 2     |
 |          | 7  | Uso de la librería Newtonsoft para manejo de Json en C# y VB                                                                                                             | 1     |
 | **Sesión 3** | 8  | Crear Windows Services con Visual Studio 2013 o posteriores                                                                                                              | 2     |
