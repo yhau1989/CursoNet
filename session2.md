@@ -24,4 +24,15 @@
 
 ### Uso de la librería Newtonsoft para manejo de Json en C# y VB
 
-Conociendo [Newtonsoft](https://www.newtonsoft.com/)
+
+
+* Conociendo [Newtonsoft](https://www.newtonsoft.com/)
+* [Serializar Objetos](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm) ejemplo: 
+```csharp
+var json = JsonConvert.SerializeObject(status)
+```
+* Como lo usamos
+    * https://www.nuget.org/
+
+![](2020-01-22-15-10-47.png)
+
