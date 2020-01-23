@@ -7,7 +7,7 @@
 
 ## Arquitectura de la solución en Visual Studio
 
-* Crear solucion en blanco
+* Crear solución en blanco
 ![](/images/2020-01-23-14-12-46.png)
 
 * Añadir un nuevo proyecto (Class Librery) a la solución **capa logica**
