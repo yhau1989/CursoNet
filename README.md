@@ -12,7 +12,7 @@ Curso básico actualizado para desarrollo en .NET
 | [**Sesión 2**](/session2.md) | 5  | Crear aplicación Web con Visual Studio 2013 o posteriores                                                                                                                | 2     |
 |          | 6  | WCF (Windows comunications fundations), fundamentos, ejemplos y ejercicios según los tipos de proyectos en De Prati con Visual Studio 2013 o posteriores                 | 2     |
 |          | 7  | Uso de la librería Newtonsoft para manejo de Json en C# y VB                                                                                                             | 1     |
-| **Sesión 3** | 8  | Crear Windows Services con Visual Studio 2013 o posteriores                                                                                                              | 2     |
+| [**Sesión 3**](/session3.md) | 8  | Crear Windows Services con Visual Studio 2013 o posteriores                                                                                                              | 2     |
 |          | 9  | Crear Web Apis (RestFull Services) con Visual Studio 2013 o posteriores                                                                                                  | 2     |
 | **Sesión 4** | 10 | Crear clientes para WCF (Consumir un WCF desde cualquier aplicación: consola, web Aplications, Windows Services, Web Api)                                                | 0.5   |
 |          | 11 | Crear cliente para Web Api (Consumir servicios RestFull desde cualquier aplicación: Windows Services, Aplicación de consola. Aplicación web, WCF)                        | 0.5   |
