@@ -10,7 +10,7 @@
 * Crear solución en blanco
 ![](/images/2020-01-23-14-12-46.png)
 
-* Añadir un nuevo proyecto (Class Librery) a la solución **capa logica**
+* Añadir un nuevo proyecto (Class Librery) a la solución **capa lógica**
 ![](/images/2020-01-23-14-13-25.png)
 
 ![](/images/2020-01-23-14-14-10.png)
@@ -19,10 +19,10 @@
 ![](/images/2020-01-23-14-14-42.png)
 
 
-* Añadir un nuevo proyecto (Windows Services) a la solución **Servicion de Windows**
+* Añadir un nuevo proyecto (Windows Services) a la solución **Servicio de Windows**
 ![](/images/2020-01-23-14-16-17.png)
 
-Así se dbe ver el proyecto
+Así se debe ver el proyecto
 ![](/images/2020-01-23-14-21-09.png)
 
 
