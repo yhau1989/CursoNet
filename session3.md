@@ -109,6 +109,68 @@ namespace Logical
         public string getNameDocumentNow() { return $"File_{DateTime.Now.ToString("ddMMyyyymmss")}"; }
     }
 }
+
+
+
+public partial class Service1 : ServiceBase
+    {
+        Timer tmrMailer;
+        bool _ProcesandoMailer;
+
+        public Service1()
+        {
+            InitializeComponent();
+            Double interval = Double.Parse(ConfigurationSettings.AppSettings["intervalo_de_ejecucion"].ToString());
+            tmrMailer = new Timer(interval);
+            tmrMailer.Elapsed += new System.Timers.ElapsedEventHandler(tmrMailer_Elapsed);
+        }
+
+        protected override void OnStart(string[] args)
+        {
+            // TODO: Add code here to start your service.
+            tmrMailer.Enabled = true;
+            _ProcesandoMailer = false;
+        }
+
+        protected override void OnStop()
+        {
+            // TODO: Add code here to perform any tear-down necessary to stop your service.
+            tmrMailer.Enabled = false;
+            _ProcesandoMailer = true;
+        }
+
+
+        void tmrMailer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            this.process();
+
+        }
+
+        private void process()
+        {
+            if (!_ProcesandoMailer)
+            {
+                _ProcesandoMailer = true;
+
+                try
+                {
+                    ClaseTest hcont = new ClaseTest("Samuel", "Pilay Muñoz", 30, "Esto es una clase");
+                    hcont.escribirArchivo();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                finally
+                {
+                    _ProcesandoMailer = false;
+                }
+
+            }
+        }
+    }
+
+
 ```
 
 #### Crear Windows Services Project Installer con Visual Studio 2013 o posteriores
