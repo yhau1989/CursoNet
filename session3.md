@@ -111,6 +111,15 @@ namespace Logical
 }
 ```
 
+#### Crear Windows Services Project Installer con Visual Studio 2013 o posteriores
+
+[Manual](
+https://www.c-sharpcorner.com/UploadFile/b7531b/create-simple-window-service-and-setup-project-with-installa/
+)
+
+
+[En caso de crear un instalador con problemas](windowService_bug_installer/) 
+
 
 ### Crear Web Apis (RestFull Services) con Visual Studio 2013 o posteriores
 
